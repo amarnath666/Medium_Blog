@@ -1,7 +1,7 @@
 import { Circle } from "./BlogCard";
 
 export const BlogSkeleton = () => {
-    return <div role="status" className="max-w-sm animate-pulse">
+    return <div role="status" className="animate-pulse">
         <div className="border-b border-slate-200 p-4 pb-4 w-screen max-w-screen-md cursor-pointer">
             <div className="flex">
             <   div className="h-4 w-4 bg-gray-200 rounded-full w-48 mb-4"></div>

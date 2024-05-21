@@ -7,7 +7,7 @@ export const FullBlog = ({blog}: {blog: Blog}) => {
         <Appbar />
         <div className="flex justify-center">
                 <div className="grid grid-cols-12 px-10 w-full pt-200 max-w-screen-2x1">
-                    <div className="bg-red-200 col-span-8">
+                    <div className=" col-span-8">
                         <div className="text-3xl font-extrabold">
                             {blog.title}
                         </div>
@@ -29,15 +29,6 @@ export const FullBlog = ({blog}: {blog: Blog}) => {
                             </div>
                         </div>
                     </div>
-                        <div className="text-xl font-bold">
-                            {blog.author.name || "Anonymous"}
-                        </div>
-                        <div className="pt-2 text-slate-500">
-                            Once upon a time in a whimsical land nestled between rolling hills 
-                            and babbling brooks, there lived a peculiar creature named Bartholomew. 
-                            Bartholomew wasn't your ordinary resident of the forest; he was a wizened 
-                            old owl with a penchant for collecting shiny objects.
-                        </div>
                 </div>
             </div> 
         </div>
